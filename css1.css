@@ -1,0 +1,158 @@
+*{
+  padding: 0 ;
+  margin: 0 ;
+  direction: rtl ;
+}
+
+.h1{
+  background-color: #5e385eff ;
+  text-align: center ;
+}
+.v{
+				background: gray;
+				font-size: 30px;
+				margin: 10px;
+				
+}
+
+.section div h1{
+  font-size: 70px ;
+  margin: 30px ;
+  color: #00ccffff ;
+}
+
+.p1{
+  color: #fff ;
+  padding: 7% ;
+  font-size: 40px ;
+}
+
+.a1{
+  font-size: 80px ;
+  color: #ffd547ff ;
+  text-decoration: none ;
+  border-radius: 25% ;
+  display: inline-block ;
+  margin: 10% ;
+  border: 3px #ffd547ff solid ;
+  padding: 0 13px ;
+  box-shadow  : 0 5px 20px #ffffff ;
+}
+
+.a1:hover{
+  background-color: #c269c3ff ;
+  font-size: 70px ;
+}
+
+.del1{
+  display: inline-block ;
+  background-color: #ffffff ;
+  color:#cb2ec4ff ;
+  padding-top: 10px ;
+  margin-bottom: 55px ;
+  border-radius: 7px ;
+  width: 63% ;
+  font-size: 40px ;
+}
+
+.del2{
+  text-align: right ;
+  font-size: 37px ;
+  color: #fff;
+  background-color: #5e385eff ;
+  border: 4px #fbde00 solid ;
+  border-radius: 7px ;
+  margin: 12px ;
+  padding: 3px ;
+  padding-left: 10px ;
+  margin-top: 30px ;
+}
+
+.fr{
+    color: #ffd547ff ;
+}
+.footer{
+				background: palegoldenrod;
+				font-size: 30px;
+				margin: 10px;
+				margin-top: 20vh;
+				padding: 10px;
+				
+}
+
+
+
+.ham {
+  width: 45px;
+  height: 45px;
+  background:#5e385eff;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: fixed;
+  top: 40px;
+  right: 20px;
+}
+
+.line1, .line2, .line3{
+  background: white;
+  border-radius: 3px;
+  width: 25px;
+  height: 3px;
+  margin: 2px;
+}
+
+.active .line1{
+  transform: rotate(-45deg) translate(-5px, 5px);
+
+}
+.active .line2 {
+  opacity: 0;
+}
+
+.active .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+.link{    
+  left: 0%;
+}
+
+nav ul {
+  left: -50%;
+  position: fixed;
+  height: 100vh;
+  width: 50%;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul h1 {
+  color: #fff;
+}
+
+ul li{
+  text-align:center;
+  padding:15px 0;
+  width: 100%;
+}
+
+ul li:hover{
+  background:#26A69A;
+  padding-left: 7%;
+  width:93%; 
+}
+
+li a{
+  color: #fff;
+}
+
+.text{
+  padding:1px 10px 1px 10px;
+  color:#fff;
+}

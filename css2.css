@@ -1,0 +1,93 @@
+*{
+  padding: 0 ;
+  margin: 0 ;
+  direction: rtl ;
+  font-family: Arial ;
+  text-align: center ;
+  text-decoration: none ;
+}
+
+body{
+  background-color: #2f484e ;
+}
+.header{
+				background:cadetblue ;
+				font-size: 30px;
+				margin: 15px;
+}
+.h{
+  text-align: center ;
+  font-size: 25px ;
+  color: #00ccff ;
+  margin: 0 8% ;
+}
+
+.h1{
+  display: inline-block ;
+  width: 70% ;
+  font-size: 70px ;
+  margin-top: 300px ;
+  color: #ff8d00 ;
+  border: 7px #ff8d00 solid ;
+  border-radius: 20px ;
+}
+
+.mosq{
+  color: #ff1900 ;
+  text-decoration: none ;
+}
+
+.h2{
+  margin-top: 20% ;
+  font-size: 28px ;
+  text-decoration: none ;
+}
+
+.h3{
+  display: inline-block ;
+  margin: 30% 0 ;
+  width: 70% ;
+}
+
+.h4{
+  font-size: 55px ;
+  border-radius: 20px ;
+  color: red ;
+  background-color: #fff ;
+}
+
+.h5{
+  font-size: 50px ;
+  border: #ff8d00 4px solid ;
+  border-radius: 15px ;
+  background-color: #fff ;
+  margin: 7px ;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 5px #bad5dc ;
+}
+
+.h5:hover {
+  background-color: #e8fb61 ;
+}
+
+.h3{
+  border: 10px #ff8d00 solid ;
+  border-radius: 15px ;
+  margin-bottom: 150px ;
+}
+
+.h6{
+  text-decoration: none ;
+  color: #00 ;
+}
+
+.h7{
+  font-size:30px ;
+  color:floralwhite ;
+  text-align: right ;
+  text-align: center;
+}
+.footer{
+				background: darkseagreen;
+				margin: 15px;
+}
